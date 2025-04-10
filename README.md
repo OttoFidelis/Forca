@@ -1,4 +1,4 @@
-## Começar o jogo
+##🎮 Começar o jogo
 Rode o Main.java que o jogo começará no terminal.
 
 ###
@@ -11,4 +11,4 @@ Ex. ALGODAO(1).
 ###
 
 ## Créditos
-Otto Fidelis Siqueira (código original) e Nicollas Cardoso Cavalcante Correia (correções e README.md).
+Otto Fidelis Siqueira (código original) e Nicollas Cardoso Cavalcante Correia (correções e README).
