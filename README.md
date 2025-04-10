@@ -1,4 +1,4 @@
-##🎮 Começar o jogo
+## 🎮 Começar o jogo
 Rode o Main.java que o jogo começará no terminal.
 
 ###
