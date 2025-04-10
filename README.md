@@ -10,5 +10,5 @@ Ex. ALGODAO(1).
 
 ###
 
-## 👥 Créditos
+## 👨‍🔧 Créditos
 Otto Fidelis Siqueira (código original) e Nicollas Cardoso Cavalcante Correia (correções e README).
