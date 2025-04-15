@@ -2,7 +2,7 @@ package methods;
 
 import java.util.Scanner;
 
-public class Inicio {
+public class Start {
     public static void start(String dicaInicial, int tentativas, boolean temLetra, String palavra, char[] palavraFormada, String palavraGameOver, Scanner tcd){
         System.out.println("\n*JOGO DA FORCA!*\nDigite uma letra para encontrar a palavra\nVocê tem 6 chances de errar\n"
                 + dicaInicial);
@@ -21,6 +21,7 @@ public class Inicio {
             } else {
                 tentativas--;
                 Bonequinho.montarBoneco(tentativas);
+                if(tentativas ==0) break;
                 System.out.println("Letra incorreta! Tente novamente");
                 String resultado = new String(palavraFormada);
                 System.out.println(resultado);
@@ -37,7 +38,7 @@ public class Inicio {
             }
         }
         if (tentativas == 0) {
-            System.out.println("*********\nFim de jogo!\nA palavra era "+palavraGameOver.toUpperCase());
+            System.out.println("Fim de jogo!\nA palavra era "+palavraGameOver.toUpperCase()+"\n*********");
         }
         tcd.close();
     }

@@ -4,7 +4,7 @@ import java.util.Random;
 import java.util.Scanner;
 import enums.Palavra;
 
-public class Jogo {
+public class Executar {
     public static void executar() {
         Random palavras = new Random();
         int tentativas = 6;
@@ -17,9 +17,10 @@ public class Jogo {
         for (int i = 0; i < palavraFormada.length; i++) {
             palavraFormada[i] = '_';
         }
+        
         String dicaInicial = new String(palavraFormada);
         Scanner tcd = new Scanner(System.in);
 
-        Inicio.start(dicaInicial, tentativas, temLetra, palavra, palavraFormada, palavraGameOver, tcd);
+        Start.start(dicaInicial, tentativas, temLetra, palavra, palavraFormada, palavraGameOver, tcd);
     }
 }
