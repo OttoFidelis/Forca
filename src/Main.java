@@ -17,7 +17,7 @@ public class Main {
         for (int i = 0; i < palavraFormada.length; i++) {
             palavraFormada[i] = '_';
         }
-        
+
         String dicaInicial = new String(palavraFormada);
         Scanner tcd = new Scanner(System.in);
 
